@@ -16,7 +16,7 @@ def get_pagination(model, page):
 
 
 def create_data(app, db):
-    """Наполнение таблицы данными"""
+    """Наполнение таблицы User данными"""
     with app.app_context():
         db.create_all()
 

@@ -11,7 +11,6 @@ from views.genres import genre_ns
 from views.movies import movie_ns
 from views.users import user_ns
 
-
 api = Api(title="Flask Course Project 4", doc="/docs")  # fr
 
 

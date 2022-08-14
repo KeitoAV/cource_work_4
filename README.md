@@ -1,4 +1,6 @@
-# **Course Project 4.**
+# **Course Project 4. API Development with Flask.**
+
+Эта курсовая работа на знания Flask, SQLAlchemy, Marshmallow (или любого другого валидатора на ваш выбор), REST, CRUD, JWT и, конечно же, знаний и умений правильного создания структуры проекта.
 
 ## Описание проекта
 

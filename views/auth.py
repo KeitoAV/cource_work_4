@@ -69,11 +69,11 @@ class AuthView(Resource):
             # проверить достоверность данных
             refresh_token = request.json.get('refresh_token')
             if not refresh_token:
-                abort(400, 'Переданы неверные данные')
+                abort(400, messege='Переданы неверные данные')
 
             # обновление hash-пароля пользователя
             tokens = auth_service.approve_refresh_token(refresh_token)
             return tokens, 201
 
         except InvalidToken:
-            abort(401, 'Передан неверный токен')
+            abort(401, messege='Передан неверный токен')
